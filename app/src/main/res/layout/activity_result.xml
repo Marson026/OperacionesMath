@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fillViewport="true"
+    android:background="#FFFFFF" tools:context=".VIew.ResultActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/resultado" android:textSize="28sp" android:textStyle="bold"
+            android:textColor="#161616" android:gravity="center" android:layout_marginBottom="32dp" />
+        <TextView android:id="@+id/txtOperacion" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="24sp" android:gravity="center"
+            android:textColor="#161616" android:layout_marginBottom="16dp" tools:text="10 + 5 =" />
+        <TextView android:id="@+id/txtResultado" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="32sp" android:textStyle="bold"
+            android:gravity="center" android:textColor="#123E61" android:padding="20dp"
+            android:background="@drawable/campo_numero" android:layout_marginBottom="32dp"
+            android:accessibilityLiveRegion="polite" android:textIsSelectable="true" tools:text="15" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnVolver"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_operacion" android:backgroundTint="#FFDE59"
+            android:text="@string/volver" android:textColor="#161616"
+            android:textSize="20sp" android:textStyle="bold" android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
+

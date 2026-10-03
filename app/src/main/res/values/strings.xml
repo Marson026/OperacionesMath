@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OperacionesMath</string>
+    <string name="numero_1">Número 1</string>
+    <string name="numero_2">Número 2</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="division">División</string>
+    <string name="multiplicacion">Multiplicación</string>
+    <string name="resultado">Resultado</string>
+    <string name="volver">Volver a calcular</string>
+    <string name="formato_operacion">%1$s %2$s %3$s =</string>
+    <string name="error_vacio">Ingresa un número.</string>
+    <string name="error_numero">Ingresa un número válido, por ejemplo: -2.5.</string>
+    <string name="error_cero">No se puede dividir entre cero.</string>
+    <string name="error_resultado">El resultado es demasiado grande. Usa números menores.</string>
+    <string name="sin_resultado">No se recibió un resultado.</string>
+</resources>
+

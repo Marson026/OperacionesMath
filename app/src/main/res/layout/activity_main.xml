@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fillViewport="true"
+    android:background="#FFFFFF" tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:labelFor="@id/numero1" android:text="@string/numero_1"
+            android:textColor="#161616" android:textSize="20sp" android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <EditText android:id="@+id/numero1" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="52dp"
+            android:background="@drawable/campo_numero" android:padding="12dp"
+            android:inputType="numberDecimal|numberSigned" android:singleLine="true"
+            android:textColor="#161616" android:textSize="20sp"
+            android:layout_marginBottom="20dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:labelFor="@id/numero2" android:text="@string/numero_2"
+            android:textColor="#161616" android:textSize="20sp" android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <EditText android:id="@+id/numero2" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="52dp"
+            android:background="@drawable/campo_numero" android:padding="12dp"
+            android:inputType="numberDecimal|numberSigned" android:singleLine="true"
+            android:textColor="#161616" android:textSize="20sp"
+            android:layout_marginBottom="20dp" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnSumar"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_operacion" android:backgroundTint="#FFDE59"
+            android:text="@string/suma" android:textColor="#161616"
+            android:textSize="20sp" android:textStyle="bold" android:textAllCaps="false" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnRestar"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_operacion" android:backgroundTint="#FFDE59"
+            android:text="@string/resta" android:textColor="#161616"
+            android:textSize="20sp" android:textStyle="bold" android:textAllCaps="false" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnDividir"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_operacion" android:backgroundTint="#FFDE59"
+            android:text="@string/division" android:textColor="#161616"
+            android:textSize="20sp" android:textStyle="bold" android:textAllCaps="false" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnMultiplicar"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_operacion" android:backgroundTint="#FFDE59"
+            android:text="@string/multiplicacion" android:textColor="#161616"
+            android:textSize="20sp" android:textStyle="bold" android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
+
