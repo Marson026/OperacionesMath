@@ -28,14 +28,17 @@ public class MainActivity extends AppCompatActivity {
                     numero1.requestFocus();
                 }
             });
-
+//Se crea la actividad principal.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
+        //Se crea la vista.
         setContentView(R.layout.activity_main);
+        //Se crea los campos de texto.
         numero1 = findViewById(R.id.numero1);
         numero2 = findViewById(R.id.numero2);
+        //Se crea los botones.
         findViewById(R.id.btnSumar).setOnClickListener(v -> calcular('+'));
         findViewById(R.id.btnRestar).setOnClickListener(v -> calcular('-'));
         findViewById(R.id.btnDividir).setOnClickListener(v -> calcular('/'));
